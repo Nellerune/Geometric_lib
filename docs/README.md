@@ -42,11 +42,11 @@ area(r): Принимает радиус r, возвращает площадь 
 - Пример вызова: perimeter(3, 4, 5) возвращает 12
 
 # История изменения проекта
-- fb2e579 (HEAD -> new_features_404612) Добавлена документация в triangle и square
+- c896a83 Добавлены unit-тесты для всех фигур
+- 1a8a06c Сделана документация в README
+- fb2e579 Добавлена документация в triangle и square
 - e3589ff Добавлена документация в rectangle и circle
 - a2ee52c Добавлен Triangle, исправлена ошибка в rectangle
 - c28ec9d Добавлен Rectangle
 - d078c8d (origin/main, origin/HEAD, main) L-03: Docs added
 - 8ba9aeb L-03: Circle and square added
->```hniougu
-> ``
