@@ -19,7 +19,7 @@ jobs:
           python-version: '3.12'
 
       - name: Запустить тесты
-        run: unittest test_circle.py
+        run: python -m unittest test_circle.py
 
       - name: Проверка круга
         run: python -m unittest -v
