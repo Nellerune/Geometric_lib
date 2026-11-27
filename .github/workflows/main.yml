@@ -11,14 +11,14 @@ jobs:
 
     steps:
       - name: Скачать код репозитория
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Установить Python
-        uses: actions/setup-python@v4—
+        uses: actions/setup-python@v7—
         with:
           python-version: '3.12'
 
       - name: Запустить тесты
-        run: python -m unittest -v
-      - name: Проверка круга
         run: unittest test_circle.py
+      - name: Проверка круга
+        run: python -m unittest -v
