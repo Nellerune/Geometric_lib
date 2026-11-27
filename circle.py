@@ -12,3 +12,6 @@ def perimeter(r):
     Возвращает площадь пи*r*2'''
     return 2 * math.pi * r
 
+def delit(r):
+    return r / 2
+
